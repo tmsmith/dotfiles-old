@@ -179,7 +179,7 @@ if [ "$(uname -s)" == "Darwin" ]
 then
 
   # Link Preference files
-  install_osx_preferences
+  #install_osx_preferences
 
   # Set OS defaults, setup homebrew
   echo ''
