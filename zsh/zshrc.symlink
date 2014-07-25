@@ -17,7 +17,7 @@ source $ZSH/oh-my-zsh.sh
 # (~11 years of collected crap)
 
 DOTFILES=$HOME/.dotfiles
-DEFAULT_USER="josh"
+DEFAULT_USER="thad"
 PROJECTS=~/Developer
 
 # use .localrc for SUPER SECRET CRAP that you don't
