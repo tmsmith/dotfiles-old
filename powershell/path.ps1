@@ -12,6 +12,6 @@ function script:append-path([string] $path) {
 #
 # Append PATH with useful directories
 #
-append-path (Get-Item "Env:ProgramFiles").Value + "\Sublime Text 3"
+append-path (join-path (Get-Item "Env:ProgramFiles").Value "Sublime Text 3")
 append-path "$($env:WINDIR)\system32\inetsrv"
-append-path (Get-Item "Env:ProgramFiles(x86)").Value + "\Git\bin"
+append-path (join-path (Get-Item "Env:ProgramFiles(x86)").Value "Git\bin")

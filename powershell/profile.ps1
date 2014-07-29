@@ -23,9 +23,6 @@ $DOTFILES = "$HOME\.dotfiles"
 $PS = "$DOTFILES\powershell"
 $env:EDITOR = 'sublime_text.exe -nw'
 
-
-
-
 #
 # Load all path first
 #
